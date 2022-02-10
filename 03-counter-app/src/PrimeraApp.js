@@ -1,11 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const PrimeraApp = ({ saludo }) => {
+const PrimeraApp = ({ saludo, subtitulo }) => {
     return (
         <>
             {saludo}
-            <p>Mi primera app</p>
+            <p>{subtitulo}</p>
         </>
     );
 };
@@ -15,7 +15,7 @@ PrimeraApp.propTypes = {
 };
 
 PrimeraApp.defaultProps = {
-    saludo: "Informacion Default"
-}
+    subtitulo: 'Informacion Default'
+};
 
 export default PrimeraApp;
