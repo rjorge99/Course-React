@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prubas de GifGrid Debe mostrar el componente correctamente 1`] = `
+<div>
+  <h3>
+    Cat
+  </h3>
+  <p>
+    Loading...
+  </p>
+</div>
+`;
+
+exports[`Prubas de GifGrid Debe mostrar items cuando se carga imagenes 1`] = `
+<div>
+  <h3>
+    Cat
+  </h3>
+  <GifGridItem
+    id="abc"
+    key="abc"
+    title="title"
+    url="address"
+  />
+</div>
+`;

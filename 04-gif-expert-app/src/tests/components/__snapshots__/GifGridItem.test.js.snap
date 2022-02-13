@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prubas de GifGridExpert Debe mostrar el componente correctamente 1`] = `
+<div>
+  <img
+    alt="Un titulo"
+    src="http://localhost/algo.jpg"
+  />
+  <p>
+    Un titulo
+  </p>
+</div>
+`;
